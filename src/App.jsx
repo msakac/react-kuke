@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import ArrayComponent from './components/ArrayComponent'
+import AsyncComponent from './components/AsyncComponent'
 import DebounceComponent from './components/DebounceComponent'
 import PreviousComponent from './components/PreviousComponent'
 import StateWithHistory from './components/StateWithHistory'
@@ -20,5 +21,6 @@ export default function App() {
     <PreviousComponent/>
     <StateWithHistory/>
     <StorageComponent/>
+    <AsyncComponent/>
     </>
 }
