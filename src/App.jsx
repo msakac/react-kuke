@@ -1,14 +1,10 @@
-import React, { useRef,useState } from 'react'
-import CustomInput from './components/CustomInput'
+import React, {useState} from 'react'
+import Toogle from './components/Toogle'
+import useLocalStorage from './hooks/useLocalStorage'
+import useUpdateLogger from './hooks/useUpdateLogger'
 
 export default function App() {
-    const [value, setValue] =  useState("red")
-    const inputRef = useRef()
-  return (
-    <>
-    <CustomInput ref={inputRef} value={value} onChange={e=>setValue(e.target.value)} />
-    <br />
-    <button onClick={()=>inputRef.current.alertHi()}>Focus</button>
+  return <>
+    <Toogle/>
     </>
-  )
 }
