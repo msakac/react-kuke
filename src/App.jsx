@@ -3,6 +3,7 @@ import ArrayComponent from './components/ArrayComponent'
 import DebounceComponent from './components/DebounceComponent'
 import PreviousComponent from './components/PreviousComponent'
 import StateWithHistory from './components/StateWithHistory'
+import StorageComponent from './components/StorageComponent'
 import Timeout from './components/Timeout'
 import Toogle from './components/Toogle'
 import UpdateComponent from './components/UpdateComponent'
@@ -18,5 +19,6 @@ export default function App() {
     <ArrayComponent/>
     <PreviousComponent/>
     <StateWithHistory/>
+    <StorageComponent/>
     </>
 }
