@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ArrayComponent from './components/ArrayComponent'
 import AsyncComponent from './components/AsyncComponent'
 import DebounceComponent from './components/DebounceComponent'
+import FetchComponent from './components/FetchComponent'
 import PreviousComponent from './components/PreviousComponent'
 import StateWithHistory from './components/StateWithHistory'
 import StorageComponent from './components/StorageComponent'
@@ -22,5 +23,6 @@ export default function App() {
     <StateWithHistory/>
     <StorageComponent/>
     <AsyncComponent/>
+    <FetchComponent/>
     </>
 }
