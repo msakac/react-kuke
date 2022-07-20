@@ -4,6 +4,7 @@ import AsyncComponent from './components/AsyncComponent'
 import DebounceComponent from './components/DebounceComponent'
 import EventListenerComponent from './components/EventListenerComponent'
 import FetchComponent from './components/FetchComponent'
+import GeoLocationComponent from './components/GeoLocationComponent'
 import MediaQueryComponent from './components/MediaQueryComponent'
 import OnScreenComponent from './components/OnScreenComponent'
 import PreviousComponent from './components/PreviousComponent'
@@ -14,6 +15,7 @@ import Timeout from './components/Timeout'
 import Toogle from './components/Toogle'
 import UpdateComponent from './components/UpdateComponent'
 import WindowSizeComponent from './components/WindowSizeComponent'
+import StateValidationComponent from './components/StateValidationComponent'
 
 export default function App() {
   return <>
@@ -32,5 +34,7 @@ export default function App() {
     <OnScreenComponent/> 
     <WindowSizeComponent/>
     <MediaQueryComponent/>
+    <GeoLocationComponent/>
+    <StateValidationComponent/>
     </>
 }
