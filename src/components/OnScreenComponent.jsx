@@ -3,7 +3,7 @@ import useOnScreen from '../hooks/useOnScreen'
 
 export default function OnScreenComponent() {
     const headerTwoRef = useRef()
-    const visible = useOnScreen(headerTwoRef, "-60px")
+    const visible = useOnScreen(headerTwoRef, "-100px")
   return (
     <div>
         <h3>useOnScreen Hook</h3>

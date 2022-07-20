@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import ArrayComponent from './components/ArrayComponent'
 import AsyncComponent from './components/AsyncComponent'
 import DebounceComponent from './components/DebounceComponent'
 import EventListenerComponent from './components/EventListenerComponent'
 import FetchComponent from './components/FetchComponent'
+import MediaQueryComponent from './components/MediaQueryComponent'
 import OnScreenComponent from './components/OnScreenComponent'
 import PreviousComponent from './components/PreviousComponent'
 import ScriptComponent from './components/ScriptComponent'
@@ -12,8 +13,7 @@ import StorageComponent from './components/StorageComponent'
 import Timeout from './components/Timeout'
 import Toogle from './components/Toogle'
 import UpdateComponent from './components/UpdateComponent'
-import useLocalStorage from './hooks/useLocalStorage'
-import useUpdateLogger from './hooks/useUpdateLogger'
+import WindowSizeComponent from './components/WindowSizeComponent'
 
 export default function App() {
   return <>
@@ -29,6 +29,8 @@ export default function App() {
     <FetchComponent/>
     <ScriptComponent/>
     <EventListenerComponent/>
-    <OnScreenComponent/>
+    <OnScreenComponent/> 
+    <WindowSizeComponent/>
+    <MediaQueryComponent/>
     </>
 }
