@@ -2,8 +2,11 @@ import React, {useState} from 'react'
 import ArrayComponent from './components/ArrayComponent'
 import AsyncComponent from './components/AsyncComponent'
 import DebounceComponent from './components/DebounceComponent'
+import EventListenerComponent from './components/EventListenerComponent'
 import FetchComponent from './components/FetchComponent'
+import OnScreenComponent from './components/OnScreenComponent'
 import PreviousComponent from './components/PreviousComponent'
+import ScriptComponent from './components/ScriptComponent'
 import StateWithHistory from './components/StateWithHistory'
 import StorageComponent from './components/StorageComponent'
 import Timeout from './components/Timeout'
@@ -24,5 +27,8 @@ export default function App() {
     <StorageComponent/>
     <AsyncComponent/>
     <FetchComponent/>
+    <ScriptComponent/>
+    <EventListenerComponent/>
+    <OnScreenComponent/>
     </>
 }
