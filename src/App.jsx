@@ -16,6 +16,8 @@ import Toogle from './components/Toogle'
 import UpdateComponent from './components/UpdateComponent'
 import WindowSizeComponent from './components/WindowSizeComponent'
 import StateValidationComponent from './components/StateValidationComponent'
+import UseEffectOnceComponent from './components/UseEffectOnceComponent'
+import ClickOutsideComponent from './components/ClickOutsideComponent'
 
 export default function App() {
   return <>
@@ -36,5 +38,7 @@ export default function App() {
     <MediaQueryComponent/>
     <GeoLocationComponent/>
     <StateValidationComponent/>
+    <UseEffectOnceComponent/>
+    <ClickOutsideComponent/>
     </>
 }
