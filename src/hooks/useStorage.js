@@ -1,6 +1,6 @@
 import React, {useState, useCallback, useEffect,} from 'react';
 
-export default function useStorage(key, defaultValue, storageObject){
+export default function useStorage(key, defaultValue, storageObject = localStorage){
 
     const [value, setValue] = useState(()=>{
         const jsonValue = storageObject.getItem(key)

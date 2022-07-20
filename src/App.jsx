@@ -18,6 +18,7 @@ import WindowSizeComponent from './components/WindowSizeComponent'
 import StateValidationComponent from './components/StateValidationComponent'
 import UseEffectOnceComponent from './components/UseEffectOnceComponent'
 import ClickOutsideComponent from './components/ClickOutsideComponent'
+import DarkModeComponent from './components/DarkModeComponent'
 
 export default function App() {
   return <>
@@ -40,5 +41,6 @@ export default function App() {
     <StateValidationComponent/>
     <UseEffectOnceComponent/>
     <ClickOutsideComponent/>
+    <DarkModeComponent/>
     </>
 }
